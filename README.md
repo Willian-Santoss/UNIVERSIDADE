@@ -5,7 +5,7 @@ Este repositório contém um projeto em Java que implementa classe para represen
 
 - Crie uma classe que representa um Univerdade. A classe deve receber os atributos nome, ra, nota, ead e presença. Crie dois construtores; o primeiro deve ter os parâmetros nome, ra, notas e ead para verificar a situação do aluno do curso ead; o segundo deve chamar o construtor ead, marcar como presencial e receber o parâmetro presença.
 - Crie um método para verificar a quantidade de avaliações até 2 notas a nota final será a média aritmética das notas. Caso tenha 3 notas será a média ponderada, onde a segunda nota tem o dobro do peso da primeira e a terceira tem o dobro do peso da segunda. Caso haja 4 notas, ac1, ac2, ag e af, a nota final será dada pela equação: MF = (ac1 * 0,15) + (ac2 * 0,30) + (ag * 0,10) + (af * 0,45). Crie um método para calcular a nota final.
-- Crie um método para verificar se o aluno ou reprovado. Um aluno será aprovado se sua nota for >= 5 e possuir ao menos 75% de presença. Contudo, nas disciplinas no formato EAD, não há presença e a aprovação será apenas baseada na nota, com o mesmo valor de corte das disciplinas presenciais.
+- Crie um método para verificar se o aluno está aprovado ou reprovado. Um aluno será aprovado se sua nota for >= 5 e possuir ao menos 75% de presença. Contudo, nas disciplinas no formato EAD, não há presença e a aprovação será apenas baseada na nota, com o mesmo valor de corte das disciplinas presenciais.
 - Crie um método para apresentar os resultados no console.
   
 # 📋 Pré-requisitos
